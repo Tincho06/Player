@@ -7,7 +7,7 @@ window.onload = function() {
   const Lista = document.querySelectorAll('source')
 
   let songIndex = 0;
-  let songs = ['songs/01_MeryBlues_ManuChao.mp3', 'songs/02_Bixo_ManuChao.mp3', 'songs/03_Eldorado1997_ManuChao.mp3']
+  let songs = ['01_MeryBlues_ManuChao.mp3', '02_Bixo_ManuChao.mp3', '03_Eldorado1997_ManuChao.mp3']
   console.log(songs)
 
   
