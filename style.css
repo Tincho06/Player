@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: linear-gradient(to right, #283048 0%, #859398 51%, #283048 100%)
+}
+button {
+
+}
+
+.buttonPrev {
+  padding: 10px;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #80020e 0%, #c40c55 35%, #ff6b00 100%)
+}
+
+.buttonPrev:hover {
+  background-position: right center;
+}
+
+.buttonPlay {
+  padding: 10px;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  background-color: #ff6b00;
+}
+
+.buttonPlay:hover {
+  background-position: right center;
+}
+
+.buttonNext {
+  padding: 10px;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #ff6b00 0%, #c40c55 65%, #80020e 100%)
+}
+
+.buttonNext:hover {
+  background-position: right center;
+}
